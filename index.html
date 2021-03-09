@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Video conference shortcuts</title>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+    <style>
+        /* style for kbd from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd */
+        kbd {
+            background-color: #eee;
+            border-radius: 3px;
+            border: 1px solid #b4b4b4;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+            color: #333;
+            display: inline-block;
+            font-size: .85em;
+            font-weight: 700;
+            line-height: 1;
+            padding: 2px 4px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body class="sans-serif f4-l f5-m f6 pa2">
+    <h1 class="pa4-l pa3-m pa2 ma0">Video conference shortcuts</h1>
+    <fieldset class="bw0 bn ph4-l ph3-m ph2 pt0 pb2 ma0 dn" id="select-platform-container">
+        <legend class="dib ma0 pa0 fl">Platform:</legend>
+    </fieldset>
+    <table class="collapse">
+        <thead>
+            <tr>
+                <th class="tl pa4-l pa3-m pa2">Platform</th>
+                <th class="tl pa4-l pa3-m pa2 bl bw1 b--light-gray">Mute/unmute</th>
+                <th class="tl pa4-l pa3-m pa2 bl bw1 b--light-gray">Switch camera on/off</th>
+                <!-- <th class="tl pa4-l pa3-m pa2 bl bw1 b--light-gray">Change camera used</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="tl pa4-l pa3-m pa2 bt bw1 b--light-gray">
+                    <a href="https://meet.google.com/" class="link underline-hover blue" target="_blank">Google Meet</a>
+                </th>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <div class="windows"><span class="sr-only f5">Windows: </span><kbd>Ctrl</kbd> + <kbd>D</kbd></div>
+                    <div class="mac"><span class="sr-only f5">Mac OS: </span><kbd>Cmd⌘</kbd> + <kbd>D</kbd></div>
+                </td>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <div class="windows"><span class="sr-only f5">Windows: </span><kbd>Ctrl</kbd> + <kbd>E</kbd></div>
+                    <div class="mac"><span class="sr-only f5">Mac OS: </span><kbd>Cmd⌘</kbd> + <kbd>E</kbd></div>
+                </td>
+                <!-- <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+
+                </td> -->
+            </tr>
+            <tr>
+                <th class="tl pa4-l pa3-m pa2 bt bw1 b--light-gray">
+                    <a href="https://www.microsoft.com/en-gb/microsoft-teams/log-in" class="link underline-hover blue" target="_blank">Microsoft Teams</a>
+                </th>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <div class="windows"><span class="sr-only f5">Windows: </span><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd></div>
+                    <div class="mac"><span class="sr-only f5">Mac OS: </span><kbd>Cmd⌘</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd></div>
+                </td>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <div class="windows"><span class="sr-only f5">Windows: </span><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd></div>
+                    <div class="mac"><span class="sr-only f5">Mac OS: </span><kbd>Cmd⌘</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd></div>
+                </td>
+                <!-- <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+
+                </td> -->
+            </tr>
+            <tr>
+                <th class="tl pa4-l pa3-m pa2 bt bw1 b--light-gray">
+                    <a href="https://www.skype.com/en/free-conference-call/?cm_mmc=accessurl" class="link underline-hover blue" target="_blank">Skype</a>
+                </th>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <div class="windows"><span class="sr-only f5">Windows: </span><kbd>Ctrl</kbd> + <kbd>M</kbd></div>
+                    <div class="mac"><span class="sr-only f5">Mac OS: </span><kbd>Cmd⌘</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd></div>
+                </td>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <div class="windows"><span class="sr-only f5">Windows: </span><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd></div>
+                    <div class="mac"><span class="sr-only f5">Mac OS: </span><kbd>Cmd⌘</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd></div>
+                </td>
+                <!-- <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+
+                </td> -->
+            </tr>
+            <tr>
+                <th class="tl pa4-l pa3-m pa2 bt bw1 b--light-gray">
+                    <a href="https://slack.com/" class="link underline-hover blue" target="_blank">Slack</a>
+                </th>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <kbd>M</kbd>
+                </td>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <kbd>V</kbd>
+                </td>
+                <!-- <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+
+                </td> -->
+            </tr>
+            <tr>
+                <th class="tl pa4-l pa3-m pa2 bt bw1 b--light-gray">
+                    <a href="https://zoom.us/" class="link underline-hover blue" target="_blank">Zoom</a></th>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <div class="windows linux"><span class="sr-only f5">Windows and Linux: </span><kbd>Alt</kbd> + <kbd>A</kbd></div>
+                    <div class="mac"><span class="sr-only f5">Mac OS: </span><kbd>Cmd⌘</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd></div>
+                </td>
+                <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <div class="windows linux"><span class="sr-only f5">Windows and Linux: </span><kbd>Alt</kbd> + <kbd>V</kbd></div>
+                    <div class="mac"><span class="sr-only f5">Mac OS: </span><kbd>Cmd⌘</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd></div>
+                </td>
+                <!-- <td class="tl pa4-l pa3-m pa2 bl bt bw1 b--light-gray">
+                    <div class="windows"><kbd>Alt</kbd> + <kbd>N</kbd></div>
+                    <div class="mac"><kbd>Cmd⌘</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd></div>
+                </td> -->
+            </tr>
+        </tbody>
+    </table>
+    <template id="select-platform-template">
+        <label class="dib ma0 pa0 fl">
+            <input type="radio" name="select-platform" value="" class="mv0 ml3 mr0 pa0" />
+        </label>
+    </template>
+    <script>
+        const PLATFORMS = {
+            "windows": "Windows",
+            "mac": "Mac OS",
+            "linux": "Linux",
+        };
+        var template = document.querySelector("#select-platform-template");
+        var container = document.querySelector("#select-platform-container");
+        var selector = Object.keys(PLATFORMS).map(i => `.${i}`).join(", ");
+
+        container.classList.remove("dn");
+
+        Object.entries(PLATFORMS).forEach(([platform, label]) => {
+            var clone = template.content.cloneNode(true);
+            clone.querySelector("input").value = platform;
+            clone.querySelector("label").appendChild(document.createTextNode(label));
+            container.append(clone);
+        });
+
+        var sr_selector = Object.keys(PLATFORMS).map(i => `.${i} .sr-only`).join(", ");
+        document.querySelectorAll(sr_selector).forEach((element) => {
+            element.classList.add("dn");
+        });
+
+        function selectPlatform(selected_platform){
+            document.querySelector(`[name="select-platform"][value="${selected_platform}"]`).setAttribute("checked", "checked");
+            document.querySelectorAll(selector).forEach((element) => {
+                if(element.classList.contains(selected_platform)){
+                    element.classList.remove("dn");
+                    element.classList.add("dib");
+                } else {
+                    element.classList.add("dn");
+                    element.classList.remove("dib");
+                }
+            });
+        }
+        document.querySelectorAll('[name="select-platform"]').forEach((element) => {
+            element.addEventListener('change', (ev) => {
+                selectPlatform(ev.target.value);
+            });
+        });
+
+        /* try and guess what platform we're on */
+        var platform = navigator.platform.toLowerCase();
+        if(platform.startsWith("mac") || platform.startsWith("ipad") || platform.startsWith("iphone")){
+            selectPlatform("mac");
+        } else if(navigator.platform.startsWith("linux") || platform.startsWith("android")){
+            selectPlatform("linux");
+        } else {
+            selectPlatform("windows");
+        }
+    </script>
+</body>
+
+</html>
